@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-link {
+    margin-left: 3rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+}
+
+.cta-button button {
+    width: 400px;
+    height: 70px;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 15rem;
+    left: 30%;
+}
+
+.home-image{
+    width: 800px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    
+}
